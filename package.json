@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --watch --coverage",
+    "test:html": "jest --watch --coverage reporter=html",
     "start:dev": "nodemon -r \"@babel/register\" index.js"
   },
   "repository": {
